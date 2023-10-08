@@ -12,11 +12,11 @@ const img = document.querySelector('#profile img')
 if (html.classList.contains('light')) {
 //se tivr light mode adicionar img light 
 
-img.setAttribute('src', './assets/avatar-light.png')
+img.setAttribute('src', './assets/black.jpg')
 //setiver sem ligh mode, usar avatar padrão
 }
 else {
-img.setAttribute('src','./assets/avatar.png')
+img.setAttribute('src','./assets/white.jpg')
 
 }
 }

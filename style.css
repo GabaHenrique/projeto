@@ -6,22 +6,22 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color:  rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover:  rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-url: url(./assets/pappernight.jpg);
+  --stroke-color:  rgba(224, 26, 26, 0.5);
+  --surface-color: rgba(218, 21, 21, 0.05);
+  --surface-color-hover:  rgba(255, 255, 255, 0.02);
+  --highlight-color: rgba(238, 37, 22, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg) ;
 
 } 
 
 .light {
-  --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color:  rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.05);
-  --highlight-color: rgba(0, 0, 0, 0.5);
+  --text-color: rgb(2, 2, 2);
+  --bg-url: url(./assets/iguess.jpg);
+  --stroke-color:  rgb(224, 160, 20);
+  --surface-color: rgba(202, 118, 22, 0.05);
+  --surface-color-hover: rgba(211, 33, 27, 0.05);
+  --highlight-color: rgba(221, 207, 14, 0.5);
    --switch-bg-url: url(./assets/sun.svg) ;
 }
 
@@ -51,7 +51,8 @@ text-align: center;
 #profile img {
   width: 112px;
 height: 111px;
-flex-shrink: 0 
+flex-shrink: 0;
+border-radius: 50px;
 }
 
 
