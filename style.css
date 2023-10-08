@@ -11,7 +11,7 @@
   --surface-color: rgba(218, 21, 21, 0.05);
   --surface-color-hover:  rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(238, 37, 22, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg) ;
+  --switch-bg-url: url(./assets/lampblack.png) ;
 
 } 
 
@@ -22,7 +22,7 @@
   --surface-color: rgba(202, 118, 22, 0.05);
   --surface-color-hover: rgba(211, 33, 27, 0.05);
   --highlight-color: rgba(221, 207, 14, 0.5);
-   --switch-bg-url: url(./assets/sun.svg) ;
+   --switch-bg-url: url(./assets/lamplight.jpg) ;
 }
 
 body {
@@ -31,9 +31,8 @@ body {
  }
 
 body * {
-  font-family: "Inter", sans-serif;
+  font-family: "Verdana";
   color: var(--text-color);
-
 }
 
 
@@ -41,7 +40,7 @@ body * {
   width: 100%;
   max-width: 580px;
 text-align: center;
-  margin: 56px auto 0px;
+  margin: 56px auto 10px;
     padding: 0 24px;  
 }
 
@@ -67,10 +66,8 @@ border-radius: 50px;
 /* switch */
 
 #switch {
-  
-  position: relative;
+   position: relative;
   width: 64px;
-
   margin: 15px auto;
 }
 
@@ -80,6 +77,7 @@ border-radius: 50px;
   background: white var(--switch-bg-url) no-repeat center; 
   border: 0px;
   border-radius: 50%;
+ 
 
   position: absolute;
  top: 50%;
@@ -87,7 +85,7 @@ border-radius: 50px;
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  animation: slide-back 0.4s;
   }
 
   .light #switch button {
@@ -172,16 +170,17 @@ ul li a:hover {
 footer {
   padding: 60px;
   text-align: center;
+ 
 }
 
 /*media queries */
 @media (min-widht: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/pappernight.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/iguess.jpg);
   }
 }
 /*animation*/
